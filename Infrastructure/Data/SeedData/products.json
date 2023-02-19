@@ -1,0 +1,182 @@
+[
+    {
+        "Id": "a997e0c9-baeb-45d1-9ccc-5dfb054bc4d0",
+        "Name": "Angular Speedster Board 2000",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 20000,
+        "PictureUrl": "/images/products/sb-ang1.png",
+        "Type": "Boards",
+        "Brand": "Angular",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "7e15edb8-7032-4e1b-b997-5a05d894c46d",
+        "Name": "Green Angular Board 3000",
+        "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+        "Price": 15000,
+        "PictureUrl": "/images/products/sb-ang2.png",
+        "Type": "Boards",
+        "Brand": "Angular",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "b1b5ca69-4236-47a0-9792-f196946ece9e",
+        "Name": "Core Board Speed Rush 3",
+        "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+        "Price": 18000,
+        "PictureUrl": "/images/products/sb-core1.png",
+        "Type": "Boards",
+        "Brand": "NetCore",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "4c604a6c-3699-44d0-9ded-e9d190fddbe6",
+        "Name": "Net Core Super Board",
+        "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+        "Price": 30000,
+        "PictureUrl": "/images/products/sb-core2.png",
+        "Type": "Boards",
+        "Brand": "NetCore",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "fd1dbcb3-d3cf-463b-a32a-e844b9389794",
+        "Name": "React Board Super Whizzy Fast",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 25000,
+        "PictureUrl": "/images/products/sb-react1.png",
+        "Type": "Boards",
+        "Brand": "React",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "f1a03cd4-79a8-45bf-a087-0f700a07b01f",
+        "Name": "Typescript Entry Board",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 12000,
+        "PictureUrl": "/images/products/sb-ts1.png",
+        "Type": "Boards",
+        "Brand": "TypeScript",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "82408836-04e9-4c3d-8981-9d5be849e0e9",
+        "Name": "Core Blue Hat",
+        "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 1000,
+        "PictureUrl": "/images/products/hat-core1.png",
+        "Type": "Hats",
+        "Brand": "NetCore",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "78f8900f-30e6-45c5-a3db-600d76b1f2b2",
+        "Name": "Green React Woolen Hat",
+        "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 8000,
+        "PictureUrl": "/images/products/hat-react1.png",
+        "Type": "Hats",
+        "Brand": "React",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "eb68b2d8-782e-47da-b354-c49cbbb214f3",
+        "Name": "Purple React Woolen Hat",
+        "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 1500,
+        "PictureUrl": "/images/products/hat-react2.png",
+        "Type": "Hats",
+        "Brand": "React",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "f2844d19-716f-4644-b7a3-aa18e3299e7f",
+        "Name": "Blue Code Gloves",
+        "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 1800,
+        "PictureUrl": "/images/products/glove-code1.png",
+        "Type": "Gloves",
+        "Brand": "VS Code",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "8cb9a117-399c-4346-9b57-c6312bc55a38",
+        "Name": "Green Code Gloves",
+        "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 1500,
+        "PictureUrl": "/images/products/glove-code2.png",
+        "Type": "Gloves",
+        "Brand": "VS Code",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "282b9b2c-0101-4169-bafa-97811873bdc0",
+        "Name": "Purple React Gloves",
+        "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 1600,
+        "PictureUrl": "/images/products/glove-react1.png",
+        "Type": "Gloves",
+        "Brand": "React",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "1d9b993c-38bb-437a-bfe3-d6c89542ce5a",
+        "Name": "Green React Gloves",
+        "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 1400,
+        "PictureUrl": "/images/products/glove-react2.png",
+        "Type": "Gloves",
+        "Brand": "React",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "28b44c54-7755-46d7-b421-e7b809178a9e",
+        "Name": "Redis Red Boots",
+        "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+        "Price": 25000,
+        "PictureUrl": "/images/products/boot-redis1.png",
+        "Type": "Boots",
+        "Brand": "Redis",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "bed187ac-f4c3-4969-9d46-a91d6be3dfff",
+        "Name": "Core Red Boots",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 18999,
+        "PictureUrl": "/images/products/boot-core2.png",
+        "Type": "Boots",
+        "Brand": "NetCore",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "671d44ec-9dbe-42de-b7dd-03dccc855eb3",
+        "Name": "Core Purple Boots",
+        "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+        "Price": 19999,
+        "PictureUrl": "/images/products/boot-core1.png",
+        "Type": "Boots",
+        "Brand": "NetCore",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "3f1a5904-c658-4fb7-adb0-a285b2eaa007",
+        "Name": "Angular Purple Boots",
+        "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+        "Price": 15000,
+        "PictureUrl": "/images/products/boot-ang2.png",
+        "Type": "Boots",
+        "Brand": "Angular",
+        "QuantityInStock": 100
+    },
+    {
+        "Id": "988b4b3d-08da-4619-a24a-05a0fafe5f6f",
+        "Name": "Angular Blue Boots",
+        "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+        "Price": 18000,
+        "PictureUrl": "/images/products/boot-ang1.png",
+        "Type": "Boots",
+        "Brand": "Angular",
+        "QuantityInStock": 100
+    }
+]
