@@ -19,7 +19,17 @@ builder.Services.AddDbContext<StoreContext>(opts =>
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
+builder.Services.AddCors(opts =>
+{
+    opts.AddPolicy("CorsPolicy", opts =>
+    {
+        opts.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000");
+    });
+});
+
 var app = builder.Build();
+
+app.UseCors("CorsPolicy");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
