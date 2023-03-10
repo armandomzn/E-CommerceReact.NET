@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import { Catalog } from "../../features/catalog/Catalog";
 import App from "../layout/App";
 import { HomePage } from "../../features/home/HomePage";
@@ -8,6 +8,8 @@ import { AboutPage } from "../../features/about/AboutPage";
 import { ContactPage } from "../../features/contact/ContactPage";
 import { ServerError } from "../errors/ServerError";
 import { NotFound } from "../errors/NotFound";
+import BasketPage from "../../features/basket/BasketPage";
+import { CheckoutPage } from "../../features/checkout/CheckoutPage";
 
 export const router = createBrowserRouter([
   {
@@ -39,8 +41,16 @@ export const router = createBrowserRouter([
         element: <ServerError />,
       },
       {
+        path: "basket",
+        element: <BasketPage />,
+      },
+      {
+        path: "checkout",
+        element: <CheckoutPage />,
+      },
+      {
         path: "*",
-        element: <NotFound />,
+        element: <Navigate replace to="/not-found" />,
       },
     ],
   },

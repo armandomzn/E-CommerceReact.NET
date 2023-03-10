@@ -13,14 +13,11 @@ export const LoadingComponent = ({ message = "Loading..." }: Props) => {
           justifyContent: "center",
           flexDirection: "column",
           height: "100vh",
+          flex: 1,
         }}
       >
-        <CircularProgress
-          color="secondary"
-          size={100}
-          sx={{ position: "absolute", top: "35%" }}
-        />
-        <Typography variant="h4" sx={{ position: "absolute", top: "50%" }}>
+        <CircularProgress color="secondary" size={100} />
+        <Typography variant="h4" sx={{ mt: 4 }}>
           {message}
         </Typography>
       </Box>
