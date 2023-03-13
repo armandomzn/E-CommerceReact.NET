@@ -9,10 +9,14 @@ import "@fontsource/roboto/700.css";
 import { StoreProvider } from "./app/context/StoreContext";
 import { store } from "./app/store/configureStore";
 import { Provider } from "react-redux";
+import { fetchProductsAsync } from "./features/catalog/catalogSlice";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
+
+store.dispatch(fetchProductsAsync());
+
 root.render(
   <React.StrictMode>
     <StoreProvider>

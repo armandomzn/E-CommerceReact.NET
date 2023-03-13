@@ -15,6 +15,8 @@ import { useState } from "react";
 import { LoadingButton } from "@mui/lab";
 import { useStoreContext } from "../../app/context/StoreContext";
 import { Basket } from "../../app/models/basket";
+import { useAppDispatch, useAppSelector } from "../../app/store/configureStore";
+import { addBasketItemAsync } from "../basket/basketSlice";
 
 interface Props {
   product: Product;
@@ -22,6 +24,8 @@ interface Props {
 
 export const ProductCard = ({ product }: Props) => {
   const { setBasket } = useStoreContext();
+  const dispatch = useAppDispatch();
+  const { status } = useAppSelector((state) => state.basket);
   const [loading, setLoading] = useState(false);
 
   const handleAddItem = async (productId: string) => {
@@ -66,8 +70,10 @@ export const ProductCard = ({ product }: Props) => {
       </CardContent>
       <CardActions>
         <LoadingButton
-          loading={loading}
-          onClick={() => handleAddItem(product.id)}
+          loading={status === `pendingAddItem/${product.id}`}
+          onClick={() =>
+            dispatch(addBasketItemAsync({ productId: product.id, quantity: 1 }))
+          }
           size="small"
         >
           Add To Cart
